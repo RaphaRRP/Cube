@@ -7,16 +7,10 @@
     <x>0</x>
     <y>0</y>
     <width>816</width>
-    <height>577</height>
+    <height>600</height>
    </rect>
   </property>
   <property name="minimumSize">
-   <size>
-    <width>816</width>
-    <height>577</height>
-   </size>
-  </property>
-  <property name="maximumSize">
    <size>
     <width>816</width>
     <height>577</height>
@@ -31,17 +25,11 @@
      <rect>
       <x>0</x>
       <y>0</y>
-      <width>816</width>
-      <height>577</height>
+      <width>821</width>
+      <height>601</height>
      </rect>
     </property>
     <property name="minimumSize">
-     <size>
-      <width>816</width>
-      <height>577</height>
-     </size>
-    </property>
-    <property name="maximumSize">
      <size>
       <width>816</width>
       <height>577</height>
@@ -51,23 +39,26 @@
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap resource="../../imagens/Cozinha/ImagensCozinha.qrc">:/png/pia.png</pixmap>
+     <pixmap resource="../../imagens/Cozinha/ImagensCozinha.qrc">:/png/armario.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
     </property>
+    <property name="openExternalLinks">
+     <bool>false</bool>
+    </property>
    </widget>
-   <widget class="QPushButton" name="BackPia">
+   <widget class="QPushButton" name="pushButton">
     <property name="geometry">
      <rect>
-      <x>340</x>
+      <x>320</x>
       <y>490</y>
-      <width>151</width>
-      <height>61</height>
+      <width>171</width>
+      <height>71</height>
      </rect>
     </property>
     <property name="text">
-     <string>Back</string>
+     <string>back</string>
     </property>
    </widget>
   </widget>

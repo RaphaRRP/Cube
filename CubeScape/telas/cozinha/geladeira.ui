@@ -51,7 +51,10 @@
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../Cube/imagens/Cozinha/geladeira.png</pixmap>
+     <pixmap resource="../../imagens/Cozinha/ImagensCozinha.qrc">:/png/geladeira.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
     </property>
    </widget>
    <widget class="QPushButton" name="pushButton">
@@ -88,6 +91,8 @@
    </widget>
   </widget>
  </widget>
- <resources/>
+ <resources>
+  <include location="../../imagens/Cozinha/ImagensCozinha.qrc"/>
+ </resources>
  <connections/>
 </ui>

@@ -18,14 +18,26 @@
   </property>
   <property name="maximumSize">
    <size>
-    <width>816</width>
-    <height>577</height>
+    <width>1000</width>
+    <height>1000</height>
    </size>
   </property>
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
   <widget class="QWidget" name="centralwidget">
+   <property name="minimumSize">
+    <size>
+     <width>816</width>
+     <height>577</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>816</width>
+     <height>577</height>
+    </size>
+   </property>
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
@@ -51,29 +63,16 @@
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap resource="../../imagens/Cozinha/ImagensCozinha.qrc">:/png/pia.png</pixmap>
+     <pixmap resource="../../imagens/Sala/Sala.qrc">:/png/mesa.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="BackPia">
-    <property name="geometry">
-     <rect>
-      <x>340</x>
-      <y>490</y>
-      <width>151</width>
-      <height>61</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>Back</string>
-    </property>
-   </widget>
   </widget>
  </widget>
  <resources>
-  <include location="../../imagens/Cozinha/ImagensCozinha.qrc"/>
+  <include location="../../imagens/Sala/Sala.qrc"/>
  </resources>
  <connections/>
 </ui>
