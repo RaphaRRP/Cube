@@ -1,0 +1,5 @@
+dica da senha na porta(x, y, z);
+incluir z em lazer
+criar e aicionar os botoes de movimentação
+fazer o código
+adicionar uma musica
