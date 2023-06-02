@@ -1,5 +1,7 @@
 <RCC>
   <qresource prefix="png">
+    <file>setaD.png</file>
+    <file>setaE.png</file>
     <file>sofa.png</file>
     <file>mesa.png</file>
     <file>quadro.png</file>

@@ -57,17 +57,29 @@
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="BackPia">
+   <widget class="QPushButton" name="voltar">
     <property name="geometry">
      <rect>
-      <x>340</x>
-      <y>490</y>
-      <width>151</width>
-      <height>61</height>
+      <x>350</x>
+      <y>510</y>
+      <width>120</width>
+      <height>60</height>
      </rect>
     </property>
+    <property name="minimumSize">
+     <size>
+      <width>120</width>
+      <height>60</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-radius: 1px;
+background-color: rgba(0, 0, 0, 0.7);
+color: grey;
+font-size: 30px;</string>
+    </property>
     <property name="text">
-     <string>Back</string>
+     <string>Voltar</string>
     </property>
    </widget>
   </widget>

@@ -25,14 +25,8 @@
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
-  <property name="autoFillBackground">
-   <bool>false</bool>
-  </property>
-  <property name="styleSheet">
-   <string notr="true">backgroung-img: url(imagens/Cozinha/CozinhaCube.png);</string>
-  </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QLabel" name="backgroung">
+   <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
       <x>0</x>
@@ -53,100 +47,85 @@
       <height>577</height>
      </size>
     </property>
-    <property name="autoFillBackground">
-     <bool>false</bool>
-    </property>
     <property name="text">
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap resource="../../imagens/Cozinha/ImagensCozinha.qrc">:/png/CozinhaCube.png</pixmap>
+     <pixmap resource="../../imagens/Lazer/lazer.qrc">:/png/LazerCube.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
     </property>
-    <property name="wordWrap">
-     <bool>false</bool>
-    </property>
    </widget>
-   <widget class="QPushButton" name="geladeira">
+   <widget class="QPushButton" name="relogio">
     <property name="geometry">
      <rect>
       <x>260</x>
-      <y>100</y>
-      <width>191</width>
-      <height>471</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">background-color:rgba(0, 0, 0, 0);</string>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="armario">
-    <property name="geometry">
-     <rect>
-      <x>610</x>
-      <y>10</y>
-      <width>201</width>
-      <height>261</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">background-color:rgba(0, 0, 0, 0);</string>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="pia">
-    <property name="geometry">
-     <rect>
-      <x>0</x>
       <y>130</y>
-      <width>231</width>
-      <height>111</height>
+      <width>141</width>
+      <height>141</height>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color:rgba(0, 0, 0, 0);</string>
+     <string notr="true">background-color: rgba(0, 0, 0, 0)</string>
     </property>
     <property name="text">
      <string/>
     </property>
    </widget>
-   <widget class="QLabel" name="label">
+   <widget class="QPushButton" name="teclado">
     <property name="geometry">
      <rect>
-      <x>10</x>
-      <y>260</y>
-      <width>50</width>
-      <height>51</height>
+      <x>210</x>
+      <y>430</y>
+      <width>241</width>
+      <height>131</height>
      </rect>
     </property>
-    <property name="minimumSize">
-     <size>
-      <width>50</width>
-      <height>50</height>
-     </size>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgba(0, 0, 0, 0)</string>
     </property>
     <property name="text">
      <string/>
     </property>
-    <property name="pixmap">
-     <pixmap resource="../../imagens/Cozinha/ImagensCozinha.qrc">:/png/setaE.png</pixmap>
+   </widget>
+   <widget class="QPushButton" name="tv">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>140</y>
+      <width>301</width>
+      <height>221</height>
+     </rect>
     </property>
-    <property name="scaledContents">
-     <bool>true</bool>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgba(0, 0, 0, 0)</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="papel">
+    <property name="geometry">
+     <rect>
+      <x>590</x>
+      <y>360</y>
+      <width>51</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgba(0, 0, 0, 0)</string>
+    </property>
+    <property name="text">
+     <string/>
     </property>
    </widget>
    <widget class="QLabel" name="label_2">
     <property name="geometry">
      <rect>
-      <x>760</x>
-      <y>270</y>
+      <x>10</x>
+      <y>260</y>
       <width>50</width>
       <height>50</height>
      </rect>
@@ -161,7 +140,32 @@
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap resource="../../imagens/Cozinha/ImagensCozinha.qrc">:/png/setaD.png</pixmap>
+     <pixmap resource="../../imagens/Lazer/lazer.qrc">:/png/setaE.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>760</x>
+      <y>260</y>
+      <width>50</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>50</width>
+      <height>50</height>
+     </size>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="../../imagens/Lazer/lazer.qrc">:/png/setaD.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -170,9 +174,9 @@
    <widget class="QPushButton" name="esquerda">
     <property name="geometry">
      <rect>
-      <x>0</x>
+      <x>10</x>
       <y>250</y>
-      <width>81</width>
+      <width>61</width>
       <height>61</height>
      </rect>
     </property>
@@ -183,12 +187,12 @@
      <string/>
     </property>
    </widget>
-   <widget class="QPushButton" name="direita">
+   <widget class="QPushButton" name="direira">
     <property name="geometry">
      <rect>
-      <x>750</x>
-      <y>270</y>
-      <width>61</width>
+      <x>760</x>
+      <y>250</y>
+      <width>51</width>
       <height>61</height>
      </rect>
     </property>
@@ -202,7 +206,7 @@
   </widget>
  </widget>
  <resources>
-  <include location="../../imagens/Cozinha/ImagensCozinha.qrc"/>
+  <include location="../../imagens/Lazer/lazer.qrc"/>
  </resources>
  <connections/>
 </ui>

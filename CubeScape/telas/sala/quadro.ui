@@ -2,6 +2,9 @@
 <ui version="4.0">
  <class>MainWindow</class>
  <widget class="QMainWindow" name="MainWindow">
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
   <property name="geometry">
    <rect>
     <x>0</x>
@@ -57,17 +60,29 @@
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton">
+   <widget class="QPushButton" name="voltar">
     <property name="geometry">
      <rect>
-      <x>330</x>
-      <y>530</y>
-      <width>111</width>
-      <height>51</height>
+      <x>350</x>
+      <y>510</y>
+      <width>120</width>
+      <height>60</height>
      </rect>
     </property>
+    <property name="minimumSize">
+     <size>
+      <width>120</width>
+      <height>60</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-radius: 1px;
+background-color: rgba(0, 0, 0, 0.7);
+color: grey;
+font-size: 30px;</string>
+    </property>
     <property name="text">
-     <string>Back</string>
+     <string>Voltar</string>
     </property>
    </widget>
   </widget>

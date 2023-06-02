@@ -51,7 +51,7 @@
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../imagens/Frente/FrenteCube.png</pixmap>
+     <pixmap resource="../imagens/Frente/frente.qrc">:/png/FrenteCube.png</pixmap>
     </property>
    </widget>
    <widget class="QPushButton" name="porta">
@@ -63,31 +63,90 @@
       <height>461</height>
      </rect>
     </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgba(0, 0, 0, 0);</string>
+    </property>
     <property name="text">
      <string/>
     </property>
    </widget>
-   <widget class="QPushButton" name="vaso">
+   <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
       <x>10</x>
-      <y>210</y>
-      <width>161</width>
-      <height>361</height>
+      <y>260</y>
+      <width>50</width>
+      <height>50</height>
      </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>50</width>
+      <height>50</height>
+     </size>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="../imagens/Frente/frente.qrc">:/png/setaE.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>760</x>
+      <y>260</y>
+      <width>50</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>50</width>
+      <height>50</height>
+     </size>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="../imagens/Frente/frente.qrc">:/png/setaD.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="esquerda">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>250</y>
+      <width>71</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgba(0, 0, 0, 0);</string>
     </property>
     <property name="text">
      <string/>
     </property>
    </widget>
-   <widget class="QPushButton" name="janela">
+   <widget class="QPushButton" name="direira">
     <property name="geometry">
      <rect>
-      <x>490</x>
-      <y>0</y>
-      <width>271</width>
-      <height>381</height>
+      <x>724</x>
+      <y>250</y>
+      <width>91</width>
+      <height>71</height>
      </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgba(0, 0, 0, 0);</string>
     </property>
     <property name="text">
      <string/>
@@ -95,6 +154,8 @@
    </widget>
   </widget>
  </widget>
- <resources/>
+ <resources>
+  <include location="../imagens/Frente/frente.qrc"/>
+ </resources>
  <connections/>
 </ui>
