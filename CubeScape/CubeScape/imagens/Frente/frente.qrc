@@ -1,7 +1,0 @@
-<RCC>
-  <qresource prefix="png">
-    <file>FrenteCube.png</file>
-    <file>setaD.png</file>
-    <file>setaE.png</file>
-  </qresource>
-</RCC>
