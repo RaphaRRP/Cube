@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>MainWindow</class>
- <widget class="QMainWindow" name="MainWindow">
+ <class>cozinha</class>
+ <widget class="QMainWindow" name="cozinha">
   <property name="geometry">
    <rect>
     <x>0</x>
@@ -31,7 +31,7 @@
   <property name="styleSheet">
    <string notr="true">backgroung-img: url(imagens/Cozinha/CozinhaCube.png);</string>
   </property>
-  <widget class="QWidget" name="centralwidget">
+  <widget class="QWidget" name="cozinha1">
    <widget class="QLabel" name="backgroung">
     <property name="geometry">
      <rect>

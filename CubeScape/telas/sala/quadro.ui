@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>MainWindow</class>
- <widget class="QMainWindow" name="MainWindow">
+ <class>quadro</class>
+ <widget class="QMainWindow" name="quadro">
   <property name="enabled">
    <bool>true</bool>
   </property>
@@ -28,7 +28,7 @@
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
-  <widget class="QWidget" name="centralwidget">
+  <widget class="QWidget" name="quadro1">
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
