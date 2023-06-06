@@ -5,7 +5,7 @@ import Sala_rc
 import sys
 from PyQt5 import QtWidgets, uic
 
-
+# oi
 class main():
     def __init__(self):
         app = QtWidgets.QApplication(sys.argv)
