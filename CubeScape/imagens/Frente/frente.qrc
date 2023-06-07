@@ -1,5 +1,7 @@
 <RCC>
   <qresource prefix="png">
+    <file>blog_amendoeira-em-flor.jpg</file>
+    <file>FrenteAberto.png</file>
     <file>FrenteCube.png</file>
     <file>setaD.png</file>
     <file>setaE.png</file>

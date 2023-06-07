@@ -4,11 +4,12 @@ import Lazer_rc
 import Sala_rc
 import sys
 from PyQt5 import QtWidgets, uic
-from PyQt5.QtWidgets import QApplication, QMainWindow
+from PyQt5.QtWidgets import QApplication, QMainWindow, QLineEdit
 
 class main():
     def __init__(self):
         app = QtWidgets.QApplication(sys.argv)
+
         self.porta = uic.loadUi('porta.ui')
         self.lazer = uic.loadUi('lazer.ui')
         self.sala = uic.loadUi('sala.ui')
@@ -24,9 +25,12 @@ class main():
         self.relogio = uic.loadUi('relogio.ui')
         self.teclado = uic.loadUi('teclado.ui')
         self.morse = uic.loadUi('morse.ui')
+        self.tranca = uic.loadUi('tranca.ui')
+        self.saida = uic.loadUi('saida.ui')
 
         self.porta.direita.clicked.connect(self.abrir_sala)
         self.porta.esquerda.clicked.connect(self.abrir_lazer)
+        self.porta.porta.clicked.connect(self.abrir_tranca)
 
         self.sala.direita.clicked.connect(self.abrir_cozinha)
         self.sala.esquerda.clicked.connect(self.abrir_porta) 
@@ -59,10 +63,13 @@ class main():
         self.teclado.voltar.clicked.connect(self.abrir_lazer)
         self.morse.voltar.clicked.connect(self.abrir_lazer)
 
+        self.tranca.continuar.clicked.connect(self.testar_senha)
+
+        self.saida.sair.clicked.connect(QApplication.closeAllWindows)
+
         self.abrir_porta()
         app.exec()
         
-
     def abrir_porta(self):
         QApplication.closeAllWindows()
         self.porta.show()
@@ -123,6 +130,19 @@ class main():
          QApplication.closeAllWindows()
          self.morse.show()   
 
-    
+    def abrir_tranca(self):
+         self.tranca.show()    
+
+    def testar_senha(self):
+        conteudo = self.tranca.senha.text()
+
+        if conteudo == '623':
+            QApplication.closeAllWindows()
+            self.saida.show() 
+
+        else:
+            self.abrir_porta()
+
+
 if __name__ == '__main__':
     j = main()
